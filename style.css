@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  box-shadow: 0 0 10px #43570e;
+  border-radius: 5px;
+}
+body {
+  background: #d6e024;
+  background: linear-gradient(225deg, #67820dcc 0%, hsla(78, 73%, 17%, 1) 100%);
+  height: 100vh;
+  color: rgba(12, 12, 12, 0.947);
+}
+
+.ContentContainer {
+  text-align: center;
+}
+h1 {
+  padding: 1em 0;
+}
+
+h2 {
+  padding-bottom: 0.5em;
+}
+h3 {
+  color: #d6e024;
+  font-size: 4em;
+}
+#overlay {
+  position: fixed;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: auto;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  transition: 0.2s ease-in-out;
+  z-index: 5;
+}
+
+button {
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(56, 75, 12);
+  background-color: black;
+  color: #d6e024;
+  margin: 1em;
+  border: none;
+  transition: all ease 0.3s;
+}
+button:hover {
+  background-color: #d6e024;
+  color: black;
+  box-shadow: inset 0 0 10px black, 0 0 10px #d6e024;
+}
